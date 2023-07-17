@@ -25,7 +25,7 @@ publication_time = [
 
 class DiscordBot():
     def __init__(self):
-        self.TOKEN = "MTEwNTk1NDU1MTM5MzE2NTQxMg.GHujeq.2dRYL7VYroe7pI8iAN4aAF-EQeyjliFLEh-QJA"
+        self.TOKEN = "MTEwNTk1NDU1MTM5MzE2NTQxMg.GnKmJ5.ypjObYuLvRSbeG35DR1_UcYoskr33jDxgCszoM"
         self.channel = 951538486710788168
 
     def run(self):
