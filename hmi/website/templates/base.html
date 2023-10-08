@@ -3,15 +3,10 @@
 <html>
     <head>
         <meta charset="'utf-8">
-        <title>Flowers managemet site</title>
         <link rel="stylesheet", tyle="text/css", media="screen", href="{%static 'css/style.css'%}">
     </head>
-    {/* @ts-expect-errors */}
     <body id= "bg"; style= 'background-image: url("{%static "img/pexels-nejc-kosir-338936.jpg"%} ")'>
-        <div class="soil-moisture">
-            <p>Soil moisture for flower 1: {{flower_1}}%</p>
-            <p>Soil moisture for flower 2: {{flower_2}}%</p>
-            <p>Soil moisture for flower 3: {{flower_3}}%</p>
-        </div>
+    {% block content %}
+    {% endblock %}
     </body>
 </html>
